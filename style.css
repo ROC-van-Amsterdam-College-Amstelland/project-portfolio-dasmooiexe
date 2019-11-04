@@ -1,0 +1,96 @@
+body{
+ margin: 0px;
+ height:620px;
+ background-image: url("images/boii.png");
+}
+
+ul{
+    margin: 0px;
+}
+
+.navig{
+    display:flex;
+    background-color: black;
+    }
+    .navig > li >a{
+        font-size: 25px;
+        display: block;
+        text-decoration:none;
+        color: white;  
+        margin: 25px;
+        padding:0px;
+        width: 100%;
+        overflow: hidden;
+        opacity: 10;
+    }
+    .navig > li:hover{
+        color:white;
+        background-color: grey;
+        transition: 0.3s;
+    }
+    
+    li{
+        list-style-type: none;
+        float: right;
+    }
+    .active{
+        background-color: cyan;
+    }
+    #Github{
+        background-color: black;
+        height: 45px;
+        width:60px;
+        border-radius: 10px;
+        display: block;
+        border: grey solid 2px;
+        list-style-type: none;
+        text-decoration: none;
+        color:whitesmoke ;
+        text-align: center;
+        
+    
+    }
+    #Github:hover{
+        background-color: grey;
+        transition: 0,5s;
+    }
+    h1{
+        margin-bottom: 0px;
+    }
+    #kleinetekstonderc{
+        margin: 0px;
+    }
+    #vlagfoto{
+        height:120px;
+        width:120px;
+        text-align: end;
+    }
+    #windzeil{
+        height: 120px;
+        width: 120px;
+    }
+    #teksthomep{
+        margin:10px;
+        padding: 0px;
+    }
+    #hoofdteksthomep{
+        text-align: center;
+        align-content: flex-end;
+        color:black;
+    } 
+    p{
+        margin:0px;
+    }  
+
+    footer{
+        background: lightslategray;
+        margin:0px;
+        padding:0px;
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        float: bottom;
+    }
+    #overmij{
+        color:red;
+    }
