@@ -4,6 +4,7 @@ body{
  background-image: url("images/boii.png");
 }
 
+
 ul{
     margin: 0px;
 }
@@ -21,10 +22,10 @@ ul{
         padding:0px;
         width: 100%;
         overflow: hidden;
-        opacity: 10;
     }
     .navig > li:hover{
-        color:white;
+        color:hotpink;
+
         background-color: grey;
         transition: 0.3s;
     }
@@ -47,7 +48,7 @@ ul{
         text-decoration: none;
         color:whitesmoke ;
         text-align: center;
-        
+
     
     }
     #Github:hover{
@@ -94,3 +95,4 @@ ul{
     #overmij{
         color:red;
     }
+
