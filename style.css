@@ -1,0 +1,34 @@
+body{
+ margin: 0px;
+}
+ul{
+    margin: 0px;
+}
+
+.navig{
+    display:flex;
+    background-color: black;
+    }
+    .navig > li >a{
+        font-size: 25px;
+        display: block;
+        text-decoration:none;
+        color: white;  
+        margin: 25px;
+        padding:0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .navig > li:hover{
+        color:hotpink;
+        background-color: grey;
+        transition: 0.3s;
+    }
+    
+    li{
+        list-style-type: none;
+        float: right;
+    }
+    .active{
+        background-color: cyan;
+    }
