@@ -32,3 +32,20 @@ ul{
     .active{
         background-color: cyan;
     }
+    #Github{
+        background-color: black;
+        height: 45px;
+        width:60px;
+        border-radius: 10px;
+        display: block;
+        border: grey solid 2px;
+        list-style-type: none;
+        text-decoration: none;
+        color:whitesmoke ;
+        text-align: center;
+    
+    }
+    #Github:hover{
+        background-color: grey;
+        transition: 0,5s;
+    }
