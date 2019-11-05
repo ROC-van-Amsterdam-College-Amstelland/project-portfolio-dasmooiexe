@@ -239,3 +239,34 @@ ul{
     margin-left: 470px;
     margin-bottom: 40px;
 }
+#vaardighedentekst{
+    width: 450px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.w3-light-grey{
+    background-color: lightgrey;
+    border: black solid 1px;
+    margin: 5px;
+}
+.w3-color-green{
+    background-color: lime;
+
+}
+.w3-color-red{
+    background-color: red;
+}
+.w3-color-blue{
+    background-color: lightskyblue;
+}
+.w3-color-purple{
+    background-color: purple;
+}
+.grootte{
+    width:75%;
+}
+#statusbalkie
+
+
