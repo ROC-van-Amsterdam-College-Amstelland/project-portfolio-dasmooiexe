@@ -16,8 +16,7 @@ ul{
         display: block;
         text-decoration:none;
         color: white;  
-        margin: 25px;
-        padding:0px;
+        padding:20px;
         width: 100%;
         overflow: hidden;
     }
@@ -30,7 +29,8 @@ ul{
     
     li{
         list-style-type: none;
-        float: right;
+        height: 69px;
+       
     }
     .active{
         background-color: cyan;
@@ -96,5 +96,12 @@ ul{
     }
     #overmij{
         color:red;
+    }
+    #color{
+        background-color: aqua;
+        border-radius: 1px;
+    }
+    #color:hover{
+        transition: 0.3s;
     }
 
