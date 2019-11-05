@@ -1,0 +1,147 @@
+body{
+ margin: 0px;
+ height:620px;
+ background-image: url("images/ArtisticLastingColt-size_restricted.gif");
+}
+
+
+ul{
+    margin: 0px;
+}
+.navig{
+    display:flex;
+    background-color: black;
+    }
+    .navig > li >a{
+        font-size: 25px;
+        display: block;
+        text-decoration:none;
+        color: white;  
+        padding:20px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .navig > li:hover{
+        color:hotpink;
+
+        background-color: grey;
+        transition: 0.3s;
+    }
+    
+    li{
+        list-style-type: none;
+        height: 69px;
+       
+    }
+    .active{
+        background-color: cyan;
+    }
+    #Github{
+        background-color: black;
+        height: 45px;
+        width:60px;
+        border-radius: 10px;
+        display: block;
+        border: grey solid 2px;
+        list-style-type: none;
+        text-decoration: none;
+        color:whitesmoke ;
+        text-align: center;
+
+    
+    }
+    #Github:hover{
+        background-color: grey;
+        transition: 0,5s;
+    }
+    h1{
+        margin-bottom: 0px;
+    }
+    #kleinetekstonderc{
+        margin: 0px;
+    }
+    #vlagfoto{
+        height:120px;
+        width:120px;
+        text-align: end;
+    }
+    #windzeil{
+        height: 120px;
+        width: 120px;
+    }
+    #basketfoto{
+        width:120px;
+        height:120px;
+    }
+    #teksthomep{
+        margin:10px;
+        padding: 0px;
+    }
+    #hoofdteksthomep{
+        text-align: center;
+        align-content: flex-end;
+        color:black;
+        height: 500px;
+    } 
+    p{
+        margin:0px;
+    }  
+
+    footer{
+        background: lightslategray;
+        margin:0px;
+        padding:0px;
+        border-radius: 5px;
+        width: 100%;
+        align-content: flex-end;
+    }
+    #overmij{
+        color:red;
+    }
+    #color{
+        background-color: aqua;
+        border-radius: 1px;
+    }
+    #color:hover{
+        transition: 0.3s;
+    }
+    #project1{
+        height:200px;
+        width:350px;
+        margin: 10px;
+        padding: 20px;
+        border: solid black 1px;
+        border-radius:2px;
+    }
+    #project2{
+        height:200px;
+        width:300px;
+        margin: 10px;
+        margin-top: 20px;
+        padding: 20px;
+        border: solid black 1px;
+        border-radius:2px;
+    }
+    #mondriaan{
+        height:120px;
+        width:120px;
+        display: flex;
+        text-align: center;
+        position: absolute;
+        top: 140px;
+        left:280px; 
+    }
+    #homepafbeelding{
+        height: 80px;
+        width:120px;
+        position: absolute;
+        left:220px;
+        top:410px;
+    }
+    #games{
+        margin-top: 20px;
+    }
+    #socialmedia{
+        margin-top: ;
+    }
+    #zakelijk
